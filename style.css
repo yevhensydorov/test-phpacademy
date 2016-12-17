@@ -1,0 +1,59 @@
+header {
+  background-color: #262626;
+  height: 80px;
+}
+
+.logo {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 10px;
+  font-size: 36px;
+  font-family: "Open sans";
+}
+
+.logo span {
+  color: #82b440;
+}
+
+.navigation li{
+  color: #fff;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-right: 10px;
+  float: right;
+  margin-top: 20px;
+  font-size: 16px;
+}
+.navigation a {
+  color: #fff;
+  font-family: "Open sans";
+}
+.navigation a:hover {
+  color: #82b440;
+  text-decoration: none;
+}
+
+.header-info {
+  background-image: url(https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/APJFUAE4M5.jpg);
+  height: 546px;
+  width: 100%;
+  margin-top: -20px;
+  
+}
+
+
+
+.header-info h1 {
+  text-align: center;
+  padding-top: 200px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.header-info h3 {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+}
