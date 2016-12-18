@@ -35,7 +35,7 @@ header {
 }
 
 .header-info {
-  background-image: url(https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/APJFUAE4M5.jpg);
+  background-image: url(http://wallpaperscraft.com/image/ipad_apple_iphone_ipod_android_94628_1920x1080.jpg);
   height: 655px;
   width: 100%;
   margin-top: -20px;
@@ -50,10 +50,68 @@ header {
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 5px;
+  font-size: 56px;
 }
 
 .header-info h3 {
   color: #fff;
   text-align: center;
-  font-size: 16px;
+  font-size: 15px;
+  margin-top: 0;
+}
+.button {
+  text-align: center;
+  margin-top: 250px;
+}
+.buttons {
+  color: #fff;
+  border-radius: 5px;
+  background-color: #262626;
+  border: #fff solid 2px;
+  padding: 5px 10px;
+
+}
+
+#table {
+  min-height: 400px;
+}
+.section-heading {
+  text-align: center;
+  font-family: "Open sans";
+  text-transform: uppercase;
+}
+
+.tg  {
+  border-collapse:collapse;
+  border-spacing:0;
+  border-color:#aaa;
+}
+.tg td{
+  font-family:Arial, sans-serif;
+  font-size:14px;
+  padding:10px 15px;
+  border-style:solid;
+  border-width:2px;
+  overflow:hidden;
+  word-break:normal;
+  border-color:#aaa;
+  color:#333;
+  background-color:#fff;
+  text-align: center;
+}
+.tg th{
+  font-family:Arial, sans-serif;
+  font-size:14px;
+  font-weight:normal;
+  padding:10px 15px;
+  border-style:solid;
+  border-width:2px;
+  overflow:hidden;
+  word-break:normal;
+  border-color:#aaa;
+  color:#fff;
+  background-color:#f38630;
+}
+.tg .tg-yw4l{
+  vertical-align:top
 }
