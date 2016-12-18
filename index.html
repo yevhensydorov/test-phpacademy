@@ -6,9 +6,10 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-  <header>
+  <header id="home">
     <div class="container">
       <div class="row">
         <div class="col-md-4 col-lg-4 col-sm-4 col-xs-4">
@@ -19,10 +20,11 @@
         <div class="col-md-8 col-lg-8 col-sm-8 col-xs-8">
           <nav class='navigation'>
             <ul>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Portfolio</a></li>
-              <li><a href="#">Price</a></li>
-              <li><a href="#">Contacts</a></li>
+              
+              
+              <li><a href="#footer">footer</a></li>
+              <li><a href="#contacts">contacts</a></li>
+              <li><a href="#table">table</a></li>
             </ul>
           </nav>
         </div>
@@ -34,7 +36,7 @@
     <h1>This is my homework</h1>
     <h3>Please scroll down to find elements from technical requirement or click on "View more" button</h3>
     <div class="button">
-      <a href="#"><button class="buttons">View more</button></a>
+      <a href="#table"><button class="buttons">View more</button></a>
     </div>
     
   </div>
@@ -42,50 +44,141 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-        <h2 class="section-heading">Таблица присутствия элементов на странице</h2>
-        <table class="tg" align="center">
-          <tr>
-            <th class="tg-yw4l">Задание</th>
-            <th class="tg-yw4l">Теги/Название редактора</th>
-            <th class="tg-yw4l">Индикатор выполнения</th>
-          </tr>
-          <tr>
-            <td class="tg-yw4l">Определиться с редактором</td>
-            <td class="tg-yw4l">Sublime Text</td>
-            <td class="tg-yw4l"><input type="checkbox" checked></td>
-          </tr>
-          <tr>
-            <td class="tg-yw4l">Заголовки трех уровней</td>
-            <td class="tg-yw4l">h1, h2, h3</td>
-            <td class="tg-yw4l"><input type="checkbox" checked></td>
-          </tr>
-          <tr>
-            <td class="tg-yw4l">Список</td>
-            <td class="tg-yw4l">ul, ol, li</td>
-            <td class="tg-yw4l"><input type="checkbox" checked></td>
-          </tr>
-          <tr>
-            <td class="tg-yw4l">Div и параграфы</td>
-            <td class="tg-yw4l">div, p</td>
-            <td class="tg-yw4l"><input type="checkbox" checked></td>
-          </tr>
-          <tr>
-            <td class="tg-yw4l">Таблица</td>
-            <td class="tg-yw4l">table, tr, td</td>
-            <td class="tg-yw4l"><input type="checkbox" checked></td>
-          </tr>
-          <tr>
-            <td class="tg-yw4l">Форма</td>
-            <td class="tg-yw4l">form, input</td>
-            <td class="tg-yw4l"><input type="checkbox" checked></td>
-          </tr>
-        </table>
+          <h2 class="section-heading">Таблица присутствия элементов на странице</h2>
+        </div>
+        <div class="col-md-12">
+          <table class="tg" align="center">
+            <tr>
+              <th class="tg-yw4l">Задание</th>
+              <th class="tg-yw4l">Теги/Название редактора</th>
+              <th class="tg-yw4l">Индикатор выполнения</th>
+            </tr>
+            <tr>
+              <td class="tg-yw4l">Определиться с редактором</td>
+              <td class="tg-yw4l">Sublime Text</td>
+              <td class="tg-yw4l"><input type="checkbox" checked></td>
+            </tr>
+            <tr>
+              <td class="tg-yw4l">Заголовки трех уровней</td>
+              <td class="tg-yw4l">h1, h2, h3</td>
+              <td class="tg-yw4l"><input type="checkbox" checked></td>
+            </tr>
+            <tr>
+              <td class="tg-yw4l">Список</td>
+              <td class="tg-yw4l">ul, ol, li</td>
+              <td class="tg-yw4l"><input type="checkbox" checked></td>
+            </tr>
+            <tr>
+              <td class="tg-yw4l">Div и параграфы</td>
+              <td class="tg-yw4l">div, p</td>
+              <td class="tg-yw4l"><input type="checkbox" checked></td>
+            </tr>
+            <tr>
+              <td class="tg-yw4l">Таблица</td>
+              <td class="tg-yw4l">table, tr, td</td>
+              <td class="tg-yw4l"><input type="checkbox" checked></td>
+            </tr>
+            <tr>
+              <td class="tg-yw4l">Форма</td>
+              <td class="tg-yw4l">form, input</td>
+              <td class="tg-yw4l"><input type="checkbox" checked></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+  <section id="contacts">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="section-heading">Контакты
+          </h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-7">
+          
+            <form action="">
+              <label>Type your Name</label><br>
+              <input type="text" placeholder="Name"><br><br>
+              <label>Type your E-mail</label><br>
+              <input type="text" placeholder="E-mail"><br><br>
+              <label>Type your phone number</label><br>
+              <input type="text" placeholder="Phone"><br><br>
+              <label>Your message for me</label><br>
+              <textarea name="comment" cols="40" rows="3"></textarea><br>
+              <input type="submit" value="Send">
+            </form>
+          
+        </div>
+        <div class="col-md-5">
+            <ul class="list-unstyled clear-margins"><!-- widgets -->
+
+              <li class="widget-container widget_recent_news"><!-- widgets list -->
+
+                
+
+                <div class="footerp"> 
+
+                  
+                  <p><b>Email id:</b> <a href="mailto:assid.zp.city@gmail.com">assid.zp.city@gmail.com</a></p>
+                  <p><b>Phone Number </b>
+
+                    +447506864667, +380977382140  </p>
+
+                    
+                  </div>
+
+                  <div class="social-icons">
+
+                    <ul class="nomargin">
+
+                      <a href="https://www.facebook.com/yevgeniy.sidorov"><i class="fa fa-facebook-square fa-3x social-fb" id="social"></i></a>
+                      <a href="https://www.facebook.com/yevgeniy.sidorov?ref=bookmarks"><i class="fa fa-twitter-square fa-3x social-tw" id="social"></i></a>
+                      
+                      <a href="mailto:assid.zp.city@gmail.com"><i class="fa fa-envelope-square fa-3x social-em" id="social"></i></a>
+
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
+      </div>
+      <div class="row">
+        <div class="button button-table">
+          <a href="#home"><button class="buttons buttons-table">Home</button></a>
         </div>
       </div>
     </div>
   </section>
+  <section id="footer">
+    <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="footer-text">
+                <p>design by Yevhen Sydorov for <span> phpAcademy </span></p>
+              </div>
+            </div>
+          </div>
+    </div>
+  </section>
   
         
-<script href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>     
+<script href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>
+          $(document).ready(function() {
+
+            $('a[href^="#"]').click(function(){
+              var el = $(this).attr('href');
+              $('body').animate({
+                scrollTop: $(el).offset().top}, 1000);
+              return false; 
+            });
+
+          });
+        </script>   
 </body>
 </html>

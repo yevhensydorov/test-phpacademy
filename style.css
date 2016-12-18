@@ -63,22 +63,42 @@ header {
   text-align: center;
   margin-top: 250px;
 }
+
+.button-table {
+  text-align: center;
+  margin-top: 30px;
+
+}
+
 .buttons {
   color: #fff;
+  letter-spacing: 1px;
   border-radius: 5px;
-  background-color: #262626;
-  border: #fff solid 2px;
+  background-color: #F38630;
+  border: #fff solid 1px;
   padding: 5px 10px;
+  
+}
 
+.buttons-table {
+  border: #fff solid 1px;
+  margin-bottom: 30px;
+}
+
+.buttons:hover {
+  background-color: #de6e17;
 }
 
 #table {
   min-height: 400px;
+  margin-bottom: 30px;
 }
 .section-heading {
   text-align: center;
   font-family: "Open sans";
   text-transform: uppercase;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .tg  {
@@ -115,3 +135,44 @@ header {
 .tg .tg-yw4l{
   vertical-align:top
 }
+
+#contacts {
+  background-color: #262626;
+}
+
+#contacts h2 {
+  color:#fff;
+}
+
+label {
+  color: #fff;
+}
+.footerp {
+  color: #fff;
+}
+
+.footerp a {
+  color: #82b440;
+}
+
+.footerp a:hover {
+  color: #c2ec8a;
+}
+.social-icons a {
+  color: #82b440;
+}
+
+.social-icons a:hover {
+  color: #c2ec8a;
+}
+#footer {
+  background-color:#f38630;
+  min-height: 50px;
+  color: #fff;
+}
+
+.footer-text {
+  text-align: center;
+  margin-top: 15px;
+}
+
